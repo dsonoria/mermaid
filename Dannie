@@ -1,0 +1,46 @@
+lowchart TD
+    A[Market & Competitor<br>Intelligence Gathering] --> B[Strategic Planning<br>& Opportunity Identification]
+    B --> C[Partnership Management<br>& Execution]
+    C --> D[Performance Monitoring<br>& Analysis]
+    D --> E[Strategic & Brand<br>Alignment]
+    E -.-> A
+
+    subgraph A [Phase 1: Intelligence Gathering]
+        A1[Track Traveler Trends]
+        A2[Monitor Competitors]
+        A3[Analyze Guest Feedback]
+    end
+
+    subgraph B [Phase 2: Strategic Planning]
+        B1[Identify New Market Segments]
+        B2[Design Themed Packages]
+        B3[Draft Data-Driven Proposals]
+        B4[Develop Partnership Roadmap]
+    end
+    
+    subgraph C [Phase 3: Execution & Management]
+        C1[Nurture High-Value Partners]
+        C2[Act as Central Point of Contact]
+        C3[Develop Collaborative Packages]
+        C4[Launch Seasonal Promotions]
+    end
+    
+    subgraph D [Phase 4: Performance Monitoring]
+        D1[Track Referrals & Revenue]
+        D2[Evaluate Partner Performance]
+        D3[Recommend Adjustments]
+    end
+    
+    subgraph E [Phase 5: Strategic Alignment]
+        E1[Align Activities with Brand Values]
+        E2[Support Marketing with Content]
+        E3[Report to Management]
+    end
+
+    A1 --> B
+    A2 --> B
+    A3 --> B
+    B4 --> C
+    B2 --> C
+    D3 -.-> B4
+    D3 -.-> C1
